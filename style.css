@@ -44,15 +44,15 @@ html {
   --clr-darker-blue: #0f2338;
   --clr-dark-blue: #132e49;
   --clr-light-blue: #245478;
+  --clr-light-orange: #f1a66c;
+  --clr-dark-orange: #f48935;
+  --clr-darker-orange: #703d17;
+  --clr-dark-faded: #0000002f;
+
   --clr-dark-orange-filter: invert(50%) sepia(53%) saturate(2375%)
     hue-rotate(340deg) brightness(108%) contrast(91%);
   --clr-dark-blue-filter: invert(14%) sepia(22%) saturate(2175%)
     hue-rotate(174deg) brightness(20%) contrast(93%);
-  --clr-light-orange: #f1a66c;
-  --clr-light: #fffffb;
-  --clr-dark-faded: #0000002f;
-  --clr-dark-orange: #f48935;
-  --clr-darker-orange: #703d17;
 
   --inline-padding: 50px;
   --block-padding: 10px;

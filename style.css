@@ -68,6 +68,8 @@ body {
   );
 }
 
+/* Navbar */
+
 .navbarContainer {
   padding: var(--block-padding) var(--inline-padding);
   display: flex;
@@ -76,7 +78,6 @@ body {
   background-color: var(--clr-dark-blue);
   box-shadow: 0 0 50px 10px var(--clr-darker-blue);
 }
-
 .navbarLogo {
   display: flex;
   justify-content: center;
@@ -88,12 +89,10 @@ body {
   background-color: var(--clr-light-blue);
   transition: 0.3s;
 }
-
 .navbarLogo img {
   filter: var(--clr-dark-orange-filter);
   padding: 5px;
 }
-
 .navbarMenu {
   display: flex;
   flex-direction: row;
@@ -107,7 +106,6 @@ body {
   font-size: 1.2rem;
   transition: transform 0.3s;
 }
-
 .navbarMenu * {
   height: 50px;
   width: 85px;
@@ -119,7 +117,6 @@ body {
   padding: 10px;
   transition: 0.3s;
 }
-
 .navbarDropdownMenu {
   right: 0;
   top: 0;
@@ -132,14 +129,13 @@ body {
   width: 100%;
   height: 100%;
   backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   z-index: 999;
 }
-
 .navbarDropdownMenu * {
   height: 100px;
   width: 100%;
 }
-
 .navbarIcon {
   display: flex;
   justify-content: center;
@@ -147,11 +143,9 @@ body {
   font-size: 30px;
   filter: var(--clr-dark-orange-filter);
 }
-
 .navbarDropdownBtn {
   display: none;
 }
-
 .navbarBtn:hover,
 .navbarBtn:focus,
 .navbarLogo:hover,
@@ -159,7 +153,6 @@ body {
   background: transparent;
   border: 2px solid var(--clr-dark-orange);
 }
-
 .navbarItem:hover:not(button),
 .navbarItem:focus:not(button),
 .navbarDropdownBtn:hover,

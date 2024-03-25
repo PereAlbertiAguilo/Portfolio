@@ -324,8 +324,8 @@ body {
   align-items: center;
   justify-content: space-between;
   border-radius: 20px;
-  border-end-end-radius: 150px;
-  border-start-start-radius: 150px;
+  border-end-start-radius: 150px;
+  border-start-end-radius: 150px;
   background-image: linear-gradient(
     to left,
     var(--clr-darker-blue),
@@ -334,7 +334,7 @@ body {
 }
 .proyectoImageHolder {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   row-gap: 20px;
@@ -470,11 +470,11 @@ a:hover:has(i) {
   }
   .proyecto {
     flex-direction: column;
-    border-end-end-radius: 75px;
+    border-radius: 20px;
     border-start-start-radius: 75px;
+    border-start-end-radius: 75px;
   }
   .proyectoImageHolder {
-    flex-direction: column-reverse;
     align-items: center;
     margin-block: var(--inline-padding);
     max-height: 200px;
@@ -537,7 +537,7 @@ a:hover:has(i) {
     font-size: 0.8rem;
   }
   .headerContainer {
-    margin-block: 300px;
+    margin-block: 400px;
   }
   .aboutRightColumn img {
     position: relative;

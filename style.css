@@ -212,7 +212,7 @@ body {
 }
 @media (max-height: 650px) {
   .headerContainer {
-    margin-block: 200px;
+    margin-block: 250px;
   }
 }
 
@@ -324,12 +324,11 @@ body {
   align-items: center;
   justify-content: space-between;
   border-radius: 20px;
-  border-end-start-radius: 150px;
   border-start-end-radius: 150px;
   background-image: linear-gradient(
     to left,
     var(--clr-darker-blue),
-    var(--clr-darker-orange)
+    #00000000 75%
   );
 }
 .proyectoImageHolder {
@@ -337,7 +336,7 @@ body {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  row-gap: 20px;
+  row-gap: 10px;
   width: 100%;
   height: 300px;
 }
@@ -366,11 +365,8 @@ body {
 }
 .textContainer h4 {
   margin-block: 15px;
-  padding: 20px;
-  background-color: var(--clr-dark-blue);
   border-radius: 20px;
   text-align: justify;
-  z-index: 99;
 }
 a {
   text-transform: capitalize;
@@ -470,9 +466,8 @@ a:hover:has(i) {
   }
   .proyecto {
     flex-direction: column;
-    border-radius: 20px;
-    border-start-start-radius: 75px;
-    border-start-end-radius: 75px;
+    border-radius: 75px;
+    background: linear-gradient(180deg, var(--clr-darker-blue), #00000000 75%);
   }
   .proyectoImageHolder {
     align-items: center;

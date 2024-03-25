@@ -75,12 +75,18 @@ body {
 /* Navbar */
 
 .navbarContainer {
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
   padding: var(--block-padding) var(--inline-padding);
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--clr-dark-blue);
   box-shadow: 0 0 50px 10px var(--clr-darker-blue);
+  transform: translateY(0px);
+  transition: transform 0.3s;
 }
 .navbarLogo {
   display: flex;
@@ -125,16 +131,16 @@ body {
   right: 0;
   top: 0;
   padding: var(--block-padding) var(--inline-padding);
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   background-color: var(--clr-dark-faded);
   width: 100%;
-  height: 100%;
+  height: 100vh;
   backdrop-filter: blur(50px);
   -webkit-backdrop-filter: blur(50px);
-  z-index: 999;
+  z-index: 9999;
 }
 .navbarDropdownMenu * {
   height: 100px;
@@ -182,7 +188,7 @@ body {
 
 .headerContainer {
   padding-inline: var(--inline-padding);
-  margin-block: 360px;
+  margin-block: 400px;
   display: flex;
   flex-direction: column;
   row-gap: var(--block-padding);
@@ -221,18 +227,23 @@ body {
   border-color: var(--clr-dark-blue);
   color: var(--clr-dark-blue);
 }
+.left {
+  border-color: var(--clr-light-orange);
+  color: var(--clr-light-orange);
+}
 .sectionHeader {
   display: flex;
   flex-direction: row;
   margin-top: 200px;
 }
 .sectionHeader h1 {
+  text-transform: uppercase;
   padding-inline: 15px;
   font-size: 4.5rem;
   background-image: linear-gradient(
     to right,
     var(--clr-dark-orange),
-    var(--clr-dark-blue) 60%
+    var(--clr-dark-blue) 65%
   );
   color: transparent;
   background-clip: text;
@@ -253,7 +264,6 @@ body {
 .aboutContent ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
   row-gap: 5px;
 }
 .aboutContent p {
@@ -263,7 +273,7 @@ body {
 .aboutContent ul li p {
   font-size: 1.5em;
   color: var(--clr-light-orange);
-  text-align: start;
+  text-align: center;
 }
 .aboutRightColumn {
   display: flex;
@@ -287,8 +297,9 @@ body {
   filter: none;
 }
 .skillItem {
+  padding-right: 10px;
   display: grid;
-  grid-template-columns: 1fr 70%;
+  grid-template-columns: 1fr 80%;
   align-items: center;
   padding-bottom: 5px;
   font-size: 0.8em;
@@ -335,7 +346,7 @@ body {
   filter: sepia();
   object-fit: contain;
   max-width: 100%;
-  max-height: 100%;
+  max-height: 80%;
   transition: filter 0.3s;
 }
 .proyectoImageHolder img:hover,
@@ -345,22 +356,19 @@ body {
 .textContainer {
   display: flex;
   flex-direction: column;
-  row-gap: 25px;
+  justify-content: space-between;
   width: 100%;
 }
 .textContainer h2 {
-  text-wrap: nowrap;
   align-self: flex-start;
   font-size: 2rem;
   padding-bottom: 2px;
-  border-bottom: 0.2rem solid var(--clr-dark-blue);
 }
 .textContainer h4 {
   margin-block: 15px;
   padding: 20px;
   background-color: var(--clr-dark-blue);
   border-radius: 20px;
-  box-shadow: 0 0 40px 5px var(--clr-darker-blue);
   text-align: justify;
   z-index: 99;
 }
@@ -398,6 +406,8 @@ a:hover:has(i) {
   color: var(--clr-light-orange);
 }
 
+/* Contact Section */
+
 .contactContent {
   display: flex;
   flex-direction: column;
@@ -410,9 +420,10 @@ a:hover:has(i) {
 .contactSocials {
   display: flex;
   flex-direction: row;
+  text-align: center;
   margin-inline: 20px;
-  margin-right: calc(50% - 45px);
-  column-gap: 20px;
+  margin-right: calc(50% - 50px);
+  column-gap: 5px;
 }
 .contactTextContainer {
   padding-inline: var(--inline-padding);
@@ -459,10 +470,11 @@ a:hover:has(i) {
   }
   .proyecto {
     flex-direction: column;
-    border-end-end-radius: 100px;
-    border-start-start-radius: 100px;
+    border-end-end-radius: 75px;
+    border-start-start-radius: 75px;
   }
   .proyectoImageHolder {
+    flex-direction: column-reverse;
     align-items: center;
     margin-block: var(--inline-padding);
     max-height: 200px;
@@ -493,9 +505,10 @@ a:hover:has(i) {
     font-size: 0.6rem;
   }
   .techUsedContainer {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-wrap: wrap;
     align-self: center;
+    justify-content: center;
   }
   .techUsedContainer .skillItem {
     column-gap: 8px;

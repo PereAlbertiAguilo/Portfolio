@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "link1": "About",
+    "link2": "Projects",
+    "link3": "Contact"
+  },
+
+  "navbar2": {
+    "link1": "About",
+    "link2": "Projects",
+    "link3": "Contact"
+  },
+
+  "headers": {
+    "link1": "About",
+    "link2": "Projects",
+    "link3": "Contact"
+  },
+
+  "header": {
+    "text1": "Hello, my name is",
+    "text2": "Pere Albertí Aguiló",
+    "text3": "I am a pasionate game developer, specialized in Unity and C#. At the moment, I am expanding my skills exploring Unreal Engine and, furthermore, I am learning self-taught front-end web developement, using HTML, CSS and JavaScript."
+  },
+
+  "about": {
+    "paragraph1": "Hi! I am Pere Albertí Aguiló, a passionate game developer and interactive environments enthusiast. My fascination with this world began in my childhood when I got my first console, the Gameboy Advance.",
+    "paragraph2": "I have always followed a path of exploration and expanding of my creativity, starting from my youth taking drawing and illustration classes until completing a higher degree in 3D animation, games, and interactive environments.",
+    "paragraph3": "After completing my studies, I have continued enriching my skills through collaborations, internships, and personal projects. Additionally, I have discovered a new interest and appeal in web development, using code as a tool to express my creativity.",
+    "paragraph4": "The following are the technologies and skills that I use and am familiar with:"
+  },
+
+  "projects": {
+    "porjectText1": "Final project of the higher degree in video games. Winner of the best game of the course, and compilation of my training. From conceptualization to the implementation of gameplay mechanics, each step has been a lesson in learning and creativity. Currently published on",
+    "porjectText2": "In this creative project, as a class assignment, I have recreated the classic card game Memory.",
+    "porjectText3": "I am currently working on the development of an exciting mobile game with a classic arcade style. It will soon be published on",
+    "porjectText4": "In this project, I explore procedural generation of terrains, materials, and animations, creating virtual worlds filled with surprises and unique details that emerge from creative algorithms. Here's a small",
+    "porjectText5": "Website dedicated to a music and recording studio, Tuki Studio. With a shared passion for music and video, my colleague and I offer a creative and professional space. From recording to production, we are committed to providing high-quality services and a unique experience for our clients."
+  },
+
+  "footer": {
+    "footerText1": "Get in touch!",
+    "footerText2": "I'm always open to a new opportunity",
+    "footerBtn": "Say hi!"
+  }
+}

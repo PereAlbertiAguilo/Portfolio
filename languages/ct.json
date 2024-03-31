@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "link1": "Sobre",
+    "link2": "Projectes",
+    "link3": "Contacte"
+  },
+
+  "navbar2": {
+    "link1": "Sobre",
+    "link2": "Projectes",
+    "link3": "Contacte"
+  },
+
+  "headers": {
+    "link1": "Sobre",
+    "link2": "Projectes",
+    "link3": "Contacte"
+  },
+
+  "header": {
+    "text1": "Hola, em dic",
+    "text2": "Pere Albertí Aguiló",
+    "text3": "Sóc un apassionat desenvolupador de videojocs, especialitzat en Unity i C#. Actualment, estic ampliant les meves habilitats explorant Unreal Engine i, a més, estic aprenent de manera autodidacta el desenvolupament web, mitjançant l'ús d'HTML, CSS i JavaScript."
+  },
+
+  "about": {
+    "paragraph1": "Hola! Em dic Pere Albertí Aguiló, un apassionat desenvolupador de jocs i entorns interactius. La meva fascinació per aquest món va començar a la meva infància quan vaig obtenir la meva primera consola, la Gameboy Advance.",
+    "paragraph2": "Sempre he seguit un camí d'exploració i expansió de la meva creativitat, prenent des de la meva joventut classes de dibuix i il·lustració fins a completar un grau superior en animació 3D, jocs i entorns interactius.",
+    "paragraph3": "Després de completar els meus estudis, he continuat enriquint les meves habilitats a través de col·laboracions, pràctiques i projectes personals. A més, he descobert un nou interès i atractiu en el desenvolupament web, utilitzant la programació com una eina per expressar la meva creativitat.",
+    "paragraph4": "A continuació, deixo les tecnologies i habilitats que utilitzo i conec:"
+  },
+
+  "projects": {
+    "porjectText1": "Projecte final del grau superior de videojocs. Guanyador al millor joc del curs, i recopilació de la meva formació. Des de la conceptualització fins a la implementació de mecàniques de joc, cada pas ha estat una lliçó d'aprenentatge i creativitat. Publicat actualment a",
+    "porjectText2": "En aquest projecte creatiu, com a treball de classe, he recreat el clàssic joc de cartes Memory.",
+    "porjectText3": "Actualment estic treballant en el desenvolupament d'un emocionant joc per a dispositius mòbils amb un estil arcade clàssic. Estará publicat properament a",
+    "porjectText4": "En aquest projecte exploro la generació procedural de terrenys, materials i animacions. Creant mons virtuals plens de sorpreses i detalls únics que emergeixen d'algorismes creatius. Deixo aquí un petit",
+    "porjectText5": "Pàgina web dedicada a un estudi musical i de gravació, Tuki Estudi. Amb una passió compartida per la música i el vídeo, el meu col·lega i jo oferim un espai creatiu i professional. Des de la gravació fins a la producció, estem compromesos a proporcionar serveis de alta qualitat i una experiència única per als nostres clients."
+  },
+
+  "footer": {
+    "footerText1": "Posa't en contacte!",
+    "footerText2": "Sempre estic obert a una nova oportunitat",
+    "footerBtn": "Di Hola!"
+  }
+}

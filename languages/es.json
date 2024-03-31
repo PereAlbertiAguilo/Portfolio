@@ -1,0 +1,46 @@
+{
+  "navbar": {
+    "link1": "Acerca",
+    "link2": "Proyectos",
+    "link3": "Contacto"
+  },
+
+  "navbar2": {
+    "link1": "Acerca",
+    "link2": "Proyectos",
+    "link3": "Contacto"
+  },
+
+  "headers": {
+    "link1": "Acerca",
+    "link2": "Proyectos",
+    "link3": "Contacto"
+  },
+
+  "header": {
+    "text1": "Hola, me llamo",
+    "text2": "Pere Albertí Aguiló",
+    "text3": "Soy un apasionado desarrollador de videojuegos, especializado en Unity y C#. Actualmente, estoy ampliando mis habilidades explorando Unreal Engine y, además, estoy aprendiendo de manera autodidacta el desarrollo web, mediante el uso de HTML, CSS y JavaScript."
+  },
+
+  "about": {
+    "paragraph1": "Hola! Soy Pere Albertí Aguiló, un apasionado desarrollador de juegos y entornos interactivos. Mi fascinación por este mundo comenzó en mi infancia cuando obtuve mi primera consola, la Gameboy Advance.",
+    "paragraph2": "Siempre he seguido un camino de exploración y expansión de mi creatividad, tomando desde mi juventud clases de dibujo e ilustración hasta completar un grado superior en animación 3D, juegos y entornos interactivos.",
+    "paragraph3": "Tras finalizar mis estudios, he continuado enriqueciendo mis habilidades a través de colaboraciones, prácticas y proyectos personales. Además, he descubierto un nuevo interés y atractivo en el desarrollo web, utilizando la programación como una herramienta para expresar mi creatividad.",
+    "paragraph4": "A continuación dejo las tecnologías y habilidades que uso y conozco:"
+  },
+
+  "projects": {
+    "porjectText1": "Proyecto final del grado superior de videojuegos. Ganador al mejor juego del curso, y recopilación de mi formación. Desde la conceptualización hasta la implementación de mecánicas de juego, cada paso ha sido una lección de aprendizaje y creatividad. Publicado actualmente en",
+    "porjectText2": "En este proyecto creativo, como trabajo de clase, he recreado el clásico juego de cartas Memory",
+    "porjectText3": "Actualmente estoy trabajando en el desarrollo de un emocionante juego para dispositivos móviles con un estilo arcade clásico. Va ha estar publicado proximamente en la",
+    "porjectText4": "En este proyecto exploro la generación procedural de terrenos, materiales y animaciones. Creando mundos virtuales llenos de sorpresas y detalles únicos que emergen de algoritmos creativos. Dejo aqui un pequeño",
+    "porjectText5": "Página web dedicada a un estudio musical y de grabación, Tuki Estudio. Con una pasión compartida por la música y el video, mi colega y ofrecemos un espacio creativo y profesional. Desde la grabación hasta la producción, estamos comprometidos en proporcionar servicios de alta calidad y una experiencia única para nuestros clientes."
+  },
+
+  "footer": {
+    "footerText1": "Ponte en contacto!",
+    "footerText2": "Siempre estoy abierto a una nueva oportunidad",
+    "footerBtn": "Di Hola!"
+  }
+}

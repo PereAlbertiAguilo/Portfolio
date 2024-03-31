@@ -23,11 +23,39 @@
         <a class="navbarLogo" href="index.html">
           <img src="img/psharp_logo.png" alt="Web Logo"
         /></a>
-
+        <div id="flags" class="flags">
+          <div class="flagsItem" data-language="es">
+            <img class="flagsImg" src="img/es.svg" alt="spanish flag" />
+          </div>
+          <div class="flagsItem" data-language="ct">
+            <img class="flagsImg" src="img/es-ct.svg" alt="spanish flag" />
+          </div>
+          <div class="flagsItem" data-language="en">
+            <img class="flagsImg" src="img/gb.svg" alt="spanish flag" />
+          </div>
+        </div>
         <div class="navbarMenu">
-          <a class="navbarItem" href="#about">Acerca</a>
-          <a class="navbarItem" href="#proyectos">Proyectos</a>
-          <a class="navbarItem" href="#contact">Contacto</a>
+          <a
+            class="navbarItem"
+            href="#about"
+            data-section="navbar"
+            data-value="link1"
+            >Acerca</a
+          >
+          <a
+            class="navbarItem"
+            href="#proyectos"
+            data-section="navbar"
+            data-value="link2"
+            >Proyectos</a
+          >
+          <a
+            class="navbarItem"
+            href="#contact"
+            data-section="navbar"
+            data-value="link3"
+            >Contacto</a
+          >
           <a target="_blank" href="https://tan-randi-23.tiiny.site"
             ><button class="navbarBtn navbarItem">CV</button>
           </a>
@@ -42,9 +70,27 @@
             <i class="fa-solid fa-x navbarIcon" style="color: #ffffff"></i>
           </button>
 
-          <a class="navbarItem" href="#about">Acerca</a>
-          <a class="navbarItem" href="#proyectos">Proyectos</a>
-          <a class="navbarItem" href="#contact">Contacto</a>
+          <a
+            class="navbarItem"
+            href="#about"
+            data-section="navbar2"
+            data-value="link1"
+            >Acerca</a
+          >
+          <a
+            class="navbarItem"
+            href="#proyectos"
+            data-section="navbar2"
+            data-value="link2"
+            >Proyectos</a
+          >
+          <a
+            class="navbarItem"
+            href="#contact"
+            data-section="navbar2"
+            data-value="link3"
+            >Contacto</a
+          >
           <a target="_blank" href="https://tan-randi-23.tiiny.site"
             ><button class="navbarBtn navbarItem">CV</button>
           </a>
@@ -54,9 +100,9 @@
 
     <header>
       <div class="headerContainer">
-        <p><span>Hola,</span> me llamo</p>
-        <h1>Pere Albertí Aguiló</h1>
-        <h4>
+        <p data-section="header" data-value="text1">Hola, me llamo</p>
+        <h1 data-section="header" data-value="text2">Pere Albertí Aguiló</h1>
+        <h4 data-section="header" data-value="text3">
           Soy un apasionado desarrollador de videojuegos, especializado en Unity
           y C#. Actualmente, estoy ampliando mis habilidades explorando Unreal
           Engine y, además, estoy aprendiendo de manera autodidacta el
@@ -69,12 +115,12 @@
       <div class="aboutContainer">
         <div class="sectionHeader">
           <span class="horizontalLine left"></span>
-          <h1>Acerca</h1>
+          <h1 data-section="headers" data-value="link1">Acerca</h1>
           <span class="horizontalLine right"></span>
         </div>
         <div class="aboutContent">
           <div class="aboutLeftColumn">
-            <p>
+            <p data-section="about" data-value="paragraph1">
               Hola! Soy Pere Albertí Aguiló, un apasionado desarrollador de
               juegos y entornos interactivos. Mi fascinación por este mundo
               comenzó en mi infancia cuando obtuve mi primera consola, la
@@ -83,7 +129,7 @@
             <br />
             <span class="horizontalLine left"></span>
             <br />
-            <p>
+            <p data-section="about" data-value="paragraph2">
               Siempre he seguido un camino de exploración y expansión de mi
               creatividad, tomando desde mi juventud clases de dibujo e
               ilustración hasta completar un grado superior en animación 3D,
@@ -92,7 +138,7 @@
             <br />
             <span class="horizontalLine left"></span>
             <br />
-            <p>
+            <p data-section="about" data-value="paragraph3">
               Tras finalizar mis estudios, he continuado enriqueciendo mis
               habilidades a través de colaboraciones, prácticas y proyectos
               personales. Además, he descubierto un nuevo interés y atractivo en
@@ -104,7 +150,7 @@
           <div class="aboutRightColumn">
             <img src="img/me.PNG" alt="Imágen de Pere Albertí Aguiló" />
           </div>
-          <p>
+          <p data-section="about" data-value="paragraph4">
             A continuación dejo las tecnologías y habilidades que uso y conozco:
           </p>
           <br />
@@ -153,14 +199,14 @@
       <div class="proyectosContainer">
         <div class="sectionHeader">
           <span class="horizontalLine left"></span>
-          <h1>Proyectos</h1>
+          <h1 data-section="headers" data-value="link2">Proyectos</h1>
           <span class="horizontalLine right"></span>
         </div>
         <div class="proyectosContent">
           <div class="proyecto">
             <div class="textContainer">
               <h2>Alpha 02</h2>
-              <h4>
+              <h4 data-section="projects" data-value="porjectText1">
                 Proyecto final del grado superior de videojuegos. Ganador al
                 mejor juego del curso, y recopilación de mi formación. Desde la
                 conceptualización hasta la implementación de mecánicas de juego,
@@ -215,7 +261,7 @@
           <div class="proyecto">
             <div class="textContainer">
               <h2>Memory of Legends</h2>
-              <h4>
+              <h4 data-section="projects" data-value="porjectText2">
                 En este proyecto creativo, como trabajo de clase, he recreado el
                 clásico juego de cartas "Memory"
               </h4>
@@ -254,7 +300,7 @@
           <div class="proyecto">
             <div class="textContainer">
               <h2>Galactic Runner</h2>
-              <h4>
+              <h4 data-section="projects" data-value="porjectText3">
                 Actualmente estoy trabajando en el desarrollo de un emocionante
                 juego para dispositivos móviles con un estilo arcade clásico. Va
                 ha estar publicado proximamente en la
@@ -300,13 +346,13 @@
           <div class="proyecto">
             <div class="textContainer">
               <h2>Infinite Lands</h2>
-              <h4>
+              <h4 data-section="projects" data-value="porjectText4">
                 En este proyecto exploro la generación procedural de terrenos,
                 materiales y animaciones. Creando mundos virtuales llenos de
                 sorpresas y detalles únicos que emergen de algoritmos creativos.
                 Dejo aqui un pequeño
                 <a target="_blank" href="https://youtu.be/WnuLtaBGOt0"
-                  >devlog del proyecto
+                  >devlog
                   <i
                     class="fa-solid fa-arrow-up-right-from-square"
                     style="color: #ffffff"
@@ -345,7 +391,7 @@
           <div class="proyecto">
             <div class="textContainer">
               <h2>Tuki Estudio</h2>
-              <h4>
+              <h4 data-section="projects" data-value="porjectText5">
                 Página web dedicada a un estudio musical y de grabación, Tuki
                 Estudio. Con una pasión compartida por la música y el video, mi
                 colega y ofrecemos un espacio creativo y profesional. Desde la
@@ -397,7 +443,7 @@
       <div class="contactContainer">
         <div class="sectionHeader">
           <span class="horizontalLine left"></span>
-          <h1>Contacto</h1>
+          <h1 data-section="headers" data-value="link3">Contacto</h1>
           <span class="horizontalLine right"></span>
         </div>
         <div class="contactContent">
@@ -426,13 +472,21 @@
           </div>
 
           <div class="contactTextContainer">
-            <h1>Ponte en contacto!</h1>
-            <p>Siempre estoy abierto a una nueva oportunidad</p>
+            <h1 data-section="footer" data-value="footerText1">
+              Ponte en contacto!
+            </h1>
+            <p data-section="footer" data-value="footerText2">
+              Siempre estoy abierto a una nueva oportunidad
+            </p>
           </div>
 
           <div class="contactMailContainer">
             <button>
-              <a target="_blank" href="mailto:p.albertiaguilo@gmail.com"
+              <a
+                target="_blank"
+                href="mailto:p.albertiaguilo@gmail.com"
+                data-section="footer"
+                data-value="footerBtn"
                 >Di Hola!</a
               >
             </button>

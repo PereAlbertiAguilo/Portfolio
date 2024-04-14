@@ -35,7 +35,8 @@
     "porjectText2": "En aquest projecte creatiu, com a treball de classe, he recreat el clàssic joc de cartes Memory.",
     "porjectText3": "Actualment estic treballant en el desenvolupament d'un emocionant joc per a dispositius mòbils amb un estil arcade clàssic. Estará publicat properament a",
     "porjectText4": "En aquest projecte exploro la generació procedural de terrenys, materials i animacions. Creant mons virtuals plens de sorpreses i detalls únics que emergeixen d'algorismes creatius. Deixo aquí un petit",
-    "porjectText5": "Pàgina web dedicada a un estudi musical i de gravació, Tuki Estudi. Amb una passió compartida per la música i el vídeo, el meu col·lega i jo oferim un espai creatiu i professional. Des de la gravació fins a la producció, estem compromesos a proporcionar serveis de alta qualitat i una experiència única per als nostres clients."
+    "porjectText5": "Pàgina web dedicada a un estudi musical i de gravació, Tuki Estudi. Amb una passió compartida per la música i el vídeo, el meu col·lega i jo oferim un espai creatiu i professional. Des de la gravació fins a la producció, estem compromesos a proporcionar serveis de alta qualitat i una experiència única per als nostres clients.",
+    "porjectText6": "Prototip d'un videojoc d'estil metroidvania en 2D amb mecàniques inspirades en Hollow Knight i un disseny visual en pixel art. En aquest projecte, experimento amb custom inspectors, algoritme A* pathfinder per a la IA dels enemics, a més d'implementar un sistema de guardat utilitzant JSON i encriptació."
   },
 
   "footer": {

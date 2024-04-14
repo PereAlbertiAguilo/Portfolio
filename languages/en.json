@@ -35,7 +35,8 @@
     "porjectText2": "In this creative project, as a class assignment, I have recreated the classic card game Memory.",
     "porjectText3": "I am currently working on the development of an exciting mobile game with a classic arcade style. It will soon be published on",
     "porjectText4": "In this project, I explore procedural generation of terrains, materials, and animations, creating virtual worlds filled with surprises and unique details that emerge from creative algorithms. Here's a small",
-    "porjectText5": "Website dedicated to a music and recording studio, Tuki Studio. With a shared passion for music and video, my colleague and I offer a creative and professional space. From recording to production, we are committed to providing high-quality services and a unique experience for our clients."
+    "porjectText5": "Website dedicated to a music and recording studio, Tuki Studio. With a shared passion for music and video, my colleague and I offer a creative and professional space. From recording to production, we are committed to providing high-quality services and a unique experience for our clients.",
+    "porjectText6": "Prototype of a 2D metroidvania-style video game with mechanics inspired by Hollow Knight and a visual design in pixel art. In this project, I experiment with custom inspectors, A* pathfinding algorithm for enemy AI, as well as implementing a saving system using JSON and encryption."
   },
 
   "footer": {

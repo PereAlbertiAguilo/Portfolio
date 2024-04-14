@@ -389,6 +389,10 @@ body {
   border-radius: 20px;
   text-align: justify;
 }
+.textContainer span {
+  align-self: flex-end;
+  margin-bottom: 30px;
+}
 a {
   text-transform: capitalize;
   font-weight: bolder;
